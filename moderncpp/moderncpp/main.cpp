@@ -19,6 +19,7 @@
 #include "rvalue.hpp"
 #include "unorderedcontainer.hpp"
 #include "std_thread.hpp"
+#include "thread_local.hpp"
 
 #include <iostream>
 #include <map>
@@ -37,7 +38,8 @@ int main(int argc, const char * argv[]) {
 	//type_inference_test();
 	//rvalue_test();
 	//unordered_container();
-	std_thread_test();
+	//std_thread_test();
+	thread_local_test();
 	return 0;
 }
 
