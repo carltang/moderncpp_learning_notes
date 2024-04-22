@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812ED72D2BD4B3CC00694904 /* unordered_map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 812ED72B2BD4B3CC00694904 /* unordered_map.cpp */; };
 		8138140E2BB42999002466B3 /* thread_local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8138140C2BB42999002466B3 /* thread_local.cpp */; };
 		813CA9E52BBCD39D001F5C06 /* std_move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 813CA9E32BBCD39D001F5C06 /* std_move.cpp */; };
-		813CA9E82BBD20D6001F5C06 /* std_forward.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 813CA9E62BBD20D6001F5C06 /* std_forward.cpp */; };
 		8160D50B2BA5B9A0001CC4E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8160D50A2BA5B9A0001CC4E6 /* main.cpp */; };
 		8160D5132BA5B9E8001CC4E6 /* stdformat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8160D5112BA5B9E8001CC4E6 /* stdformat.cpp */; };
 		8160D5162BA5E2E0001CC4E6 /* bitfield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8160D5142BA5E2E0001CC4E6 /* bitfield.cpp */; };
@@ -45,12 +45,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		812ED72B2BD4B3CC00694904 /* unordered_map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unordered_map.cpp; sourceTree = "<group>"; };
+		812ED72C2BD4B3CC00694904 /* unordered_map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = unordered_map.hpp; sourceTree = "<group>"; };
 		8138140C2BB42999002466B3 /* thread_local.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = thread_local.cpp; sourceTree = "<group>"; };
 		8138140D2BB42999002466B3 /* thread_local.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = thread_local.hpp; sourceTree = "<group>"; };
 		813CA9E32BBCD39D001F5C06 /* std_move.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = std_move.cpp; sourceTree = "<group>"; };
 		813CA9E42BBCD39D001F5C06 /* std_move.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = std_move.hpp; sourceTree = "<group>"; };
-		813CA9E62BBD20D6001F5C06 /* std_forward.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = std_forward.cpp; sourceTree = "<group>"; };
-		813CA9E72BBD20D6001F5C06 /* std_forward.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = std_forward.hpp; sourceTree = "<group>"; };
 		8160D5072BA5B9A0001CC4E6 /* moderncpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = moderncpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		8160D50A2BA5B9A0001CC4E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8160D5112BA5B9E8001CC4E6 /* stdformat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stdformat.cpp; sourceTree = "<group>"; };
@@ -166,8 +166,8 @@
 				8138140D2BB42999002466B3 /* thread_local.hpp */,
 				813CA9E32BBCD39D001F5C06 /* std_move.cpp */,
 				813CA9E42BBCD39D001F5C06 /* std_move.hpp */,
-				813CA9E62BBD20D6001F5C06 /* std_forward.cpp */,
-				813CA9E72BBD20D6001F5C06 /* std_forward.hpp */,
+				812ED72B2BD4B3CC00694904 /* unordered_map.cpp */,
+				812ED72C2BD4B3CC00694904 /* unordered_map.hpp */,
 			);
 			path = moderncpp;
 			sourceTree = "<group>";
@@ -232,7 +232,6 @@
 				813CA9E52BBCD39D001F5C06 /* std_move.cpp in Sources */,
 				8160D51F2BA6C7B7001CC4E6 /* ifswitch.cpp in Sources */,
 				8160D5192BA69CB4001CC4E6 /* deprecated.cpp in Sources */,
-				813CA9E82BBD20D6001F5C06 /* std_forward.cpp in Sources */,
 				8160D5312BA88005001CC4E6 /* enum.cpp in Sources */,
 				81BE0B612BADBD5700C1E389 /* std_thread.cpp in Sources */,
 				8160D5132BA5B9E8001CC4E6 /* stdformat.cpp in Sources */,
@@ -244,6 +243,7 @@
 				8160D53D2BAC5F09001CC4E6 /* stdarray.cpp in Sources */,
 				8160D5A62BADAD81001CC4E6 /* smartpointer.cpp in Sources */,
 				8160D53A2BA9DBFE001CC4E6 /* rvalue.cpp in Sources */,
+				812ED72D2BD4B3CC00694904 /* unordered_map.cpp in Sources */,
 				8160D51C2BA6A342001CC4E6 /* constants.cpp in Sources */,
 				8160D5282BA6EDE7001CC4E6 /* typeinference.cpp in Sources */,
 				8160D5252BA6E07F001CC4E6 /* structuredbinding.cpp in Sources */,
